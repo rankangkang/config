@@ -1,14 +1,14 @@
 module.exports = {
   env: {
     node: true,
-    es2022: true
+    es2022: true,
   },
   extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
   overrides: [],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
@@ -21,18 +21,10 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['off', { argsIgnorePattern: '^_' }],
     'comma-dangle': [
       'error',
-      'always-multiline'
-      // {
-      //   arrays: 'only-multiline',
-      //   objects: 'only-multiline'
-      // }
-    ]
-    // 'array-element-newline': [
-    //   'error',
-    //   {
-    //     minItems: 3,
-    //     multiline: true
-    //   }
-    // ],
-  }
+      {
+        arrays: 'only-multiline',
+        objects: 'only-multiline',
+      },
+    ],
+  },
 }

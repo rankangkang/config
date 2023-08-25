@@ -2,9 +2,8 @@
   "name": "@cmkk/eslint-config-lib",
   "version": "0.0.1",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/eslint-config",
+  "homepage": "https://github.com/rankangkang/eslint-config.git",
   "keywords": [
     "eslint-config"
   ],

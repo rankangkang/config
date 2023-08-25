@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@cmkk/eslint-config-ts']
+  extends: ['@cmkk/eslint-config-ts'],
 }
