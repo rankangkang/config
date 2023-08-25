@@ -1,0 +1,30 @@
+{
+  "name": "@cmkk/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "homepage": "https://github.com/rankangkang/eslint-config.git",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6"
+  }
+}

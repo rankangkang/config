@@ -1,0 +1,21 @@
+{
+  "name": "@cmkk/eslint-config-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@8.6.12",
+  "license": "MIT",
+  "scripts": {
+    "lint": "pnpm -r run stub && eslint . --fix",
+    "test": "pnpm -r run test",
+    "build": "pnpm -r run build",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@cmkk/eslint-config-lib": "workspace:*",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.46.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.0"
+  }
+}

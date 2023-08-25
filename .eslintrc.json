@@ -1,0 +1,3 @@
+{
+  "extends": "@cmkk/eslint-config-lib"
+}
