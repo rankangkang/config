@@ -3,27 +3,16 @@ module.exports = {
     node: true,
     es2022: true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['standard', 'eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
   overrides: [],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['prettier'],
+  plugins: ['@typescript-eslint', 'prettier'],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {},
-      {
-        usePrettierrc: true,
-      },
-    ], // 开启 prettier 规则
+    'prettier/prettier': 'error', // 开启 prettier 规则
     'prefer-const': 0,
     'space-before-function-paren': 'off',
     'no-undef': 'off',
@@ -36,6 +25,9 @@ module.exports = {
       {
         arrays: 'only-multiline',
         objects: 'only-multiline',
+        imports: 'only-multiline',
+        exports: 'only-multiline',
+        functions: 'only-multiline',
       },
     ],
   },

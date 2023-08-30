@@ -1,0 +1,19 @@
+{
+  "name": "@cmkk/prettier-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": ".prettierrc.cjs",
+  "keywords": [
+    "prettier",
+    "prettierrc",
+    "prettier config"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "prettier": "^2.6.0 || ^3.0.0"
+  },
+  "dependencies": {
+    "prettier-plugin-packagejson": "^2.4.5"
+  }
+}
