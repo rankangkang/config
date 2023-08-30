@@ -1,5 +1,5 @@
 {
-  "name": "@cmkk/eslint-config-lib",
+  "name": "@cmkk/eslint-config",
   "version": "0.0.1",
   "description": "simple eslint config",
   "license": "MIT",

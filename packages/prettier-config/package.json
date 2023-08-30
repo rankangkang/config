@@ -1,15 +1,23 @@
 {
   "name": "@cmkk/prettier-config",
   "version": "0.0.1",
-  "description": "",
-  "main": ".prettierrc.cjs",
+  "description": "simple prettier config",
+  "license": "MIT",
+  "author": {
+    "name": "rankangkang",
+    "url": "https://github.com/rankangkang"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rankangkang/eslint-config.git"
+  },
+  "homepage": "https://github.com/rankangkang/eslint-config.git",
   "keywords": [
     "prettier",
     "prettierrc",
     "prettier config"
   ],
-  "author": "",
-  "license": "ISC",
+  "main": ".prettierrc.cjs",
   "peerDependencies": {
     "prettier": "^2.6.0 || ^3.0.0"
   },

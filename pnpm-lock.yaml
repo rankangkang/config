@@ -60,14 +60,22 @@ importers:
         specifier: ^2.9.9
         version: 2.9.9
 
+  packages/eslint-config:
+    dependencies:
+      '@cmkk/eslint-config-ts':
+        specifier: workspace:^
+        version: link:../eslint-config-ts
+      eslint:
+        specifier: '>=7.0.0'
+        version: 8.47.0
+
   packages/eslint-config-lib:
     dependencies:
       '@cmkk/eslint-config-ts':
         specifier: workspace:^
         version: link:../eslint-config-ts
-    devDependencies:
       eslint:
-        specifier: ^8.47.0
+        specifier: '>=7.0.0'
         version: 8.47.0
 
   packages/eslint-config-react:

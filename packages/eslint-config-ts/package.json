@@ -1,10 +1,21 @@
 {
   "name": "@cmkk/eslint-config-ts",
   "version": "0.0.1",
-  "description": "",
+  "description": "simple eslint config",
   "license": "MIT",
+  "author": {
+    "name": "rankangkang",
+    "url": "https://github.com/rankangkang"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rankangkang/eslint-config.git"
+  },
   "homepage": "https://github.com/rankangkang/eslint-config.git",
   "keywords": [
+    "eslint",
+    "prettier",
+    "eslint-prettier",
     "eslint-config"
   ],
   "main": "index.js",
