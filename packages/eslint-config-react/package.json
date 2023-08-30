@@ -14,7 +14,7 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.0.0"
   },
   "dependencies": {
     "@cmkk/eslint-config-ts": "workspace:^",
@@ -22,7 +22,6 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.47.0",
-    "typescript": "^5.1.6"
+    "eslint": "^8.47.0"
   }
 }
