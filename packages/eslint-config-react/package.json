@@ -1,6 +1,6 @@
 {
   "name": "@cmkk/eslint-config-react",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "simple eslint config",
   "license": "MIT",
   "author": {
