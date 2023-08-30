@@ -30,5 +30,9 @@
   },
   "dependencies": {
     "@cmkk/eslint-config-ts": "workspace:^"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }

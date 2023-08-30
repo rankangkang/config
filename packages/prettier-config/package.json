@@ -23,5 +23,9 @@
   },
   "dependencies": {
     "prettier-plugin-packagejson": "^2.4.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
