@@ -68,6 +68,9 @@ importers:
       eslint:
         specifier: '>=7.0.0'
         version: 8.47.0
+      eslint-plugin-import:
+        specifier: ^2.25.3
+        version: 2.25.3(@typescript-eslint/parser@5.58.0)(eslint@8.47.0)
 
   packages/eslint-config-lib:
     dependencies:
@@ -825,8 +828,8 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.2.0
-      es-abstract: 1.21.2
-      get-intrinsic: 1.2.0
+      es-abstract: 1.22.1
+      get-intrinsic: 1.2.1
       is-string: 1.0.7
     dev: false
 
@@ -2846,7 +2849,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.2.0
-      es-abstract: 1.21.2
+      es-abstract: 1.22.1
     dev: false
 
   /ohash@1.1.2:
