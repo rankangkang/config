@@ -1,6 +1,6 @@
 {
   "name": "@cmkk/eslint-config-monorepo",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@8.6.12",
   "license": "MIT",
