@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended', '@cmkk/eslint-config-ts'],
+  extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended', './.eslintrc'],
   env: {
     browser: true,
     commonjs: true,

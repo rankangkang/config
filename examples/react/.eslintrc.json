@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "@cmkk/eslint-config-react"
-  ]
-}

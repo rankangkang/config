@@ -1,7 +1,7 @@
 {
   "name": "@cmkk/eslint-config",
   "version": "0.1.0",
-  "description": "simple eslint config",
+  "description": "universal eslint config",
   "license": "MIT",
   "author": {
     "name": "rankangkang",
@@ -9,27 +9,38 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rankangkang/eslint-config.git"
+    "url": "https://github.com/rankangkang/config.git"
   },
-  "homepage": "https://github.com/rankangkang/eslint-config.git",
+  "homepage": "https://github.com/rankangkang/config.git",
   "keywords": [
     "eslint",
     "prettier",
     "eslint-prettier",
     "eslint-config"
   ],
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "files": [
-    "index.js"
+    ".eslintrc.js",
+    "react.js"
   ],
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint . --config=.eslintrc.js"
   },
   "peerDependencies": {
     "eslint": ">=7.0.0"
   },
   "dependencies": {
-    "@cmkk/eslint-config-ts": "workspace:^"
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

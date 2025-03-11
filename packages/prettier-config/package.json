@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rankangkang/eslint-config.git"
+    "url": "https://github.com/rankangkang/config.git"
   },
-  "homepage": "https://github.com/rankangkang/eslint-config.git",
+  "homepage": "https://github.com/rankangkang/config.git",
   "keywords": [
     "prettier",
     "prettierrc",
