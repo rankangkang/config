@@ -23,6 +23,8 @@ module.exports = {
   stylelintIntegration: true,
   eslintIntegration: true,
 
-  // 插件
-  plugins: ['prettier-plugin-packagejson'],
+  // https://github.com/prettier/prettier/issues/15085#issuecomment-1636993346
+  plugins: [
+    require.resolve('prettier-plugin-packagejson'),
+  ],
 }
