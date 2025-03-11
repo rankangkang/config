@@ -17,6 +17,11 @@ module.exports = {
 
 ```json
 {
-  "extends": ["@cmkk/eslint-config-react"]
+  "extends": ["@cmkk/eslint-config"]
+}
+
+// react proj
+{
+  "extends": ["@cmkk/eslint-config/react"]
 }
 ```
