@@ -18,7 +18,8 @@
     "prettierrc",
     "prettier config"
   ],
-  "main": ".prettierrc.cjs",
+  "main": "./prettier.config.mjs",
+  "exports": "./prettier.config.mjs",
   "peerDependencies": {
     "prettier": "^3.0.0"
   },
