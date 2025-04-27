@@ -10,7 +10,8 @@
     "test": "pnpm -r run test",
     "build": "pnpm -r run build",
     "release": "bumpp -r && pnpm -r publish",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prettier": "prettier --check ."
   },
   "devDependencies": {
     "@cmkk/commitlint-config": "workspace:*",

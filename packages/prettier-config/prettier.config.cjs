@@ -1,6 +1,4 @@
-import pluginPackageJson from 'prettier-plugin-packagejson'
-
-export default {
+module.exports = {
   arrowParens: 'always',
   bracketSameLine: false,
   bracketSpacing: true,
@@ -26,5 +24,5 @@ export default {
   eslintIntegration: true,
 
   // https://github.com/prettier/prettier/issues/15085#issuecomment-1636993346
-  plugins: [pluginPackageJson],
+  plugins: [require.resolve('prettier-plugin-packagejson')],
 }
