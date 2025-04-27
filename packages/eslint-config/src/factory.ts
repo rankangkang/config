@@ -25,7 +25,7 @@ export function createEslintConfig(options: CreateEslintConfigOptions = {}) {
     react: enableReact,
     typescript: enableTypescript,
     prettier: enablePrettier = true,
-    node: enableNode = true,
+    node: enableNode,
     ...restConfig
   } = options
   const configs: Awaitable<Config>[] = []

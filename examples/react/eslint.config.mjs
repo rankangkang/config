@@ -5,5 +5,5 @@ export default cmkk({
   typescript: true,
   jsx: true,
   javascript: true,
-  ignores: ['packages', 'node_modules', 'dist', 'build'],
+  ignores: ['node_modules', 'dist', 'build'],
 })
