@@ -8,6 +8,11 @@ export function react(): Config[] {
     pluginReact.configs.flat['jsx-runtime'],
     pluginReactHooks.configs['recommended-latest'],
     {
+      settings: {
+        react: {
+          version: 'detect',
+        },
+      },
       rules: {
         // customize rules here
         // rules 👇🏻
