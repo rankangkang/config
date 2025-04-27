@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "simple prettier config",
   "license": "MIT",
+  "type": "module",
   "author": {
     "name": "rankangkang",
     "url": "https://github.com/rankangkang"
@@ -19,7 +20,7 @@
   ],
   "main": ".prettierrc.cjs",
   "peerDependencies": {
-    "prettier": "^2.6.0 || ^3.0.0"
+    "prettier": "^3.0.0"
   },
   "dependencies": {
     "prettier-plugin-packagejson": "^2.4.5"

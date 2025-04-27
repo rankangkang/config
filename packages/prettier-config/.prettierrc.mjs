@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   arrowParens: 'always',
   bracketSameLine: false,
   bracketSpacing: true,
@@ -24,7 +24,5 @@ module.exports = {
   eslintIntegration: true,
 
   // https://github.com/prettier/prettier/issues/15085#issuecomment-1636993346
-  plugins: [
-    require.resolve('prettier-plugin-packagejson'),
-  ],
+  plugins: [require.resolve('prettier-plugin-packagejson')],
 }

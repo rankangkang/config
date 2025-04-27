@@ -3,25 +3,16 @@
 ## installation
 
 ```bash
-npm install @cmkk/eslint-config
+npm install @cmkk/eslint-config@latest
 ```
 
 ## usage
 
 ```js
-// .eslintrc.js
-module.exports = {
-  extends: ["@cmkk"]
-}
-```
+// eslint.config.mjs
+import cmkk from '@cmkk/eslint-config'
 
-```json
-{
-  "extends": ["@cmkk/eslint-config"]
-}
-
-// react proj
-{
-  "extends": ["@cmkk/eslint-config/react"]
-}
+export default cmkk({
+  typescript: true,
+})
 ```
