@@ -1,8 +1,10 @@
 {
   "name": "@cmkk/commitlint-config",
-  "version": "0.1.2",
+  "version": "1.0.0-beta.3",
   "description": "",
-  "main": "commitlint.config.js",
+  "type": "module",
+  "main": "./commitlint.config.mjs",
+  "exports": "./commitlint.config.mjs",
   "license": "ISC",
   "author": {
     "name": "rankangkang",

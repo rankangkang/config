@@ -1,6 +1,6 @@
 {
   "name": "@cmkk/eslint-config",
-  "version": "0.1.2",
+  "version": "1.0.0-beta.3",
   "description": "universal eslint config",
   "license": "MIT",
   "author": {
@@ -18,29 +18,37 @@
     "eslint-prettier",
     "eslint-config"
   ],
-  "main": ".eslintrc.js",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
   "files": [
-    ".eslintrc.js",
-    "react.js"
+    "dist"
   ],
   "scripts": {
-    "lint": "eslint . --config=.eslintrc.js"
+    "lint": "eslint -c ./eslint.config.mjs --fix .",
+    "build": "tsup --clean --dts",
+    "prepack": "npm run build"
   },
   "peerDependencies": {
-    "eslint": ">=7.0.0"
+    "eslint": ">=9.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.58.0",
-    "@typescript-eslint/parser": "^5.58.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-flat-config-utils": "^2.0.1",
+    "eslint-plugin-n": "^17.17.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.4"
   },
   "devDependencies": {
-    "eslint": "^8.47.0"
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "tsup": "^8.4.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
